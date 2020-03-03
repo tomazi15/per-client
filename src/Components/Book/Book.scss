@@ -1,0 +1,12 @@
+.Book {
+    cursor: pointer;
+    transition: transform 1s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    &__cardBody {
+        height: 150px;
+    }
+}
